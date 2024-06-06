@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Nabla&display=swap');
+
+body {
+    background-color: rgb(2, 0, 8);
+    
+}
+
+:root {
+    --color-primario: rgb(84, 110, 118);  
+    --color-secundario: rgb(13, 6, 38);    
+    --color-terciario: rgb(211, 17, 179);     
+    --color__blanco: white; 
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+/*Padre*/
+.flex_container{
+    background-color: rgba(13, 19, 81, 0.448);
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 30px;
+    -webkit-box-shadow: 10px 16px 44px 21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 44px 21px rgba(0,0,0,0.75);
+    box-shadow: 10px 16px 44px 21px rgba(0,0,0,0.75);
+    border-radius: 5%;
+}
+
+/*Hijos*/
+.box__01{
+    background-color: var(--color-primario);
+    background: linear-gradient(to bottom, #0373f430, #d400ff84), url("https://i.blogs.es/8f5cd5/lucy-edgerunners-cyberpunk-2077/1366_2000.jpeg") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid black 5px;
+    color: var(--color__blanco); 
+    font-family: 'Nabla';
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+.box__02{
+    background-color: var(--color-secundario);
+    background: linear-gradient(to bottom, #b4f40306, #ccff004f), url("https://somoskudasai.com/wp-content/uploads/2020/05/portada_evangelion-misato-katsuragi.jpg") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid black 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nabla';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.box__03{
+    background-color: var(--color-secundario);
+    background: linear-gradient(to bottom, #0373f415, #08622266), url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2023/12/One-Punch-Man-Fanart-hiperrealista-convierte-a-Fubuki-en-la-waifu-definitiva.jpg") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: 'Nabla';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.box__04{
+    background-color: var(--color-primario);
+    background: linear-gradient(to bottom, #626f7e30, #00d9ff1a), url("https://www.anmosugoi.com/wp-content/uploads/2022/11/Chainsaw-Man-Himeno-12.jpg") center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid black 5px;
+    font-family: 'Nabla';
+    font-style: normal;
+    font-weight: 600;
+}
